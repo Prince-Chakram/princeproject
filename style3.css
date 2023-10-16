@@ -1,0 +1,25 @@
+body{
+    font-family: 'popins';
+}
+
+/* .bg-3{
+    margin-top: 100px;
+} */
+.row-1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 70px;
+}
+.ad-1{
+    color: black;
+    margin-left: 40px;
+}
+h4{
+    margin-left: 40px;
+}
+
+.btn-5{
+    margin-left: 50px;
+    
+}

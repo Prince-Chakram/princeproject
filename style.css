@@ -1,3 +1,353 @@
 body{
     font-family: 'popins';
 }
+.background-image{
+    background-image: url("https://demo.creativethemes.com/blocksy/homi/wp-content/uploads/2021/04/home-hero-2@2x.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 100vh;
+    background-position: center;
+}
+.logo{
+    display: flex;
+    /* align-items: center; */
+    padding-left: 70px;
+}
+.icons a{
+    color: black;
+    padding: 20px;
+}
+
+.img-5{
+transition: transform .1s;
+}
+.img-5:hover{
+    transform: scale(1.1);
+    }
+
+nav ul li{
+    display: inline;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    margin-top:-100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:gray;
+    gap: 20px;
+}
+nav ul li a:hover{
+    color: rgb(185, 168, 147);
+    text-decoration: underline;
+}
+li a{
+    margin-right: 70px;
+    height: 10%;
+}
+
+    
+
+.menu{
+    padding-left: 45px;
+    padding-top: 20px;
+}
+.content h5{
+    margin-top: 100px;
+    margin-left: 70px;
+    color:burlywood;
+}
+.heading h1{
+    color:white;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+.sub-heading p{
+    color:white;
+    margin-left: 70px;
+    font-size: 18px;
+}
+.btn button{
+    width: 150px;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: 10px;
+    background-color:rgb(185, 166, 140);
+    color: white;
+    border: none;
+}
+.btn button:hover{
+    background-color:rgb(185, 172, 154);
+}
+.card{
+    margin-top: -40px;
+    border: none;
+
+}
+.card-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+h2{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.div-1{
+    float: left;
+    margin-top: 30px;
+    margin-left: 55px;
+
+}
+
+.div-2{
+    float: right;
+    margin-top: 30px;
+    margin-right: 55px;
+
+}
+
+.div-3{
+    float: left;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+.div-4{
+    float: right;
+    margin-top: 30px;
+    margin-right: 55px;
+}
+.sec-1{
+    position: relative;
+    top: 40px;
+}
+h3{
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+h6{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.card-1{
+    margin-top: 70px;
+}
+.card-text{
+    text-align: center;
+    color: black;
+}
+.card-title{
+    margin-top: 20px;
+    
+}
+
+.btn-2 button{
+    width: 130px;
+    height: 40px;
+    margin-left: 600px;
+    margin-top: 70px;
+    background-color:rgb(241, 240, 235);
+    color:black;
+    border: none;
+}
+.btn-2 button:hover{
+    background-color: rgb(185, 166, 140);
+    color: white;
+}
+.card-2{
+    margin-top: 110px;
+}
+.text{
+    font-size: 20px;
+}
+.sec-2{
+    position: relative;
+    top: 80px;
+}
+ .container-3{
+    width: 90%;
+    margin: auto;
+    background-color:#A8CDCF;
+    margin-top: 80px;
+} 
+.save{
+    font-weight: bold;
+    margin-right: 460px;
+    margin-top: 50px;
+    color:rgb(81, 180, 180);
+}
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 15px;
+}
+.btn3{
+    width: 150px;
+    height: 50px;
+    /* margin-left: 600px; */
+    margin-top: 50px;
+    background-color:#0c8e95!important;
+    /* color:black; */
+    border: none;
+}
+.container-4{
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+   
+
+}
+.row-2{
+    background-image: url("https://demo.creativethemes.com/blocksy/homi/wp-content/uploads/2021/04/subscribe-section-bg@2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.save-1{
+    position: relative;
+    top: 100px;
+    margin-right: 750px;
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 40px;
+    /* margin-left: 50px; */
+}
+.para-1{
+    margin-top: 110px;
+    color:rgba(255, 255, 255, 0.747);
+    margin-left: 70px;
+    font-size: 20px;
+}
+#inp{
+    width: 33%;
+    height: 40px;
+    border: none;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.btn-3{
+    width: 140px;
+    height: 40px;
+    /* margin-left: 600px; */
+    margin-top: 50px;
+    background-color:rgb(185, 166, 140);
+    color:white;
+    border: none;
+}
+.btn-3:hover{
+    background-color: rgb(185, 172, 154);
+}
+.btn-4{
+    width: 200px;
+    margin-left: 70%;
+    height: 50px;
+    margin-top: 6rem;
+    background-color:rgb(241, 240, 235);
+    color:black;
+    border: none;
+    
+}
+.btn-4:hover{
+    background-color: rgb(185, 166, 140);
+    color: white;
+}
+.shop{
+    width: 90%;
+    margin: auto;
+}
+.Shop1{
+    /* width: 90%; */
+    display: flex;
+}
+.head-1{
+    margin-right: 70px;
+}
+.row-3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.card-3{
+    margin-top: 40px;
+}
+.card-tit{
+    text-align: center;
+    margin-top: 20px;
+    font-weight:bold;
+    color: black;
+}
+
+.help{
+    width: 90%;
+    margin: auto;
+    
+    display: flex;
+    
+    
+}
+.row-4{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    
+}
+h5{
+    margin-top: 60px;
+    color: white;
+}
+a{
+    color: rgba(255, 255, 255, 0.493);
+}
+p{
+    color: rgba(255, 255, 255, 0.459);
+}
+a:hover{
+    color: rgb(185, 166, 140);
+}
+span:hover{
+    color: rgb(185, 166, 140);
+    cursor: pointer;
+}
+#inp-1{
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+}
+.foot-nav{
+    margin-top: 50px;
+}
+.foot-nav li{
+    list-style: none;
+    display:inline;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.foot-nav li i:hover{
+    background-color:rgb(122, 107, 86) ;
+}
+.foot-nav p{
+    display: inline;
+    /* margin-bottom: 80px; */
+    margin-left: 650px;
+}
+.sp{
+    color: rgb(122, 107, 86);
+}
+

@@ -1,0 +1,23 @@
+body{
+    font-family: 'popins';
+}
+.head1{
+    text-align: center;
+}
+.head3{
+    width: 90%;
+    margin: auto;
+    /* display: flex; */
+}
+.head2{
+    display: flex;
+    margin-top: 50px;
+}
+.dropdown{
+    margin-left: 930px;
+}
+.btn{
+    border: 2px solid wheat;
+    
+    
+}
